@@ -12,19 +12,13 @@ li {
     list-style: square;
 }
 
-
-.light-theme{
-    color: #000000;
-    background: #0f0
-}
-
 :root {
     --green: #0f0;
     --white: #fff;
     --black: #000000;
 }
 
-.light-theme {
+.light-theme{
     --bg:var(--green);
     --fontColor:var(--black);
 }
@@ -44,8 +38,8 @@ body {
 }
 
 .btn {
-    color: var(bntFontColor);
-    background-color: var[--bntBg];
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
 }
 
 .btn {
@@ -56,6 +50,22 @@ body {
     width: 50px;
     border-radius: 50%;
     border: none;
-    color: var(--bntFontColor);
-    background-color: var(--btn);
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { outline-style: none; }
+
+.light-theme {
+    --bg: var(--green); 
+    --fontColor: var(--black);
+    --btnBg: var(--black); 
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
 }
