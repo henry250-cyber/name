@@ -1,0 +1,37 @@
+#Dobro do valor
+valor = int(input("Valor parte 2:"))
+núm = 2
+dobro = núm * valor
+print(dobro)
+valor = int(input("Valor parte 2:"))
+
+numero = valor 
+dobro = float(numero) * 2 
+print(dobro)
+
+#Área do quadrado
+quadrado = int(input("Valor do quadrado:"))
+lado  = quadrado 
+area = lado * lado 
+print (f"area do quadrado é: {area}")
+
+#Conversão de para centimetros
+metros =int(input("De metro para Centimetro:"))
+conv_centimetros = (100) * metros
+print(f"Em centrimetros são: {conv_centimetros}")
+
+#De centimetros para milimetros
+centimetros = int(input("De centrimetro para milimetro:"))
+conv_milimetros = (10) * centimetros
+milimetros = input(print(f"em milimetros: {conv_milimetros}"))
+
+#De minuto para segundo 
+minuto = int(input("De minuto para segundo: "))
+conv_segundo = (60) * minuto 
+segundo = input(print(f"Em segundo ficam: {conv_segundo}")) 
+
+#Calculo de troco
+valor_compra= int(input("Valor da compra é de: "))
+valor_pago = int(input("Valor pago foi:"))
+troco = valor_pago - valor_compra 
+print(f"O troco é: {troco}")
